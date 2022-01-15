@@ -1,0 +1,31 @@
+{
+  "name": "@ansh203/tailwindcsscli",
+  "version": "1.0.0",
+  "description": "CLI to generate starter templates with TailwindCSS pre-installed",
+  "main": "./bin/index.js",
+  "bin": {
+    "tcli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshgupta203/tailwindcss-CLI.git"
+  },
+  "keywords": [
+    "cli",
+    "portfolio"
+  ],
+  "author": "Ansh Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anshgupta203/tailwindcss-CLI.git/issues"
+  },
+  "homepage": "https://github.com/anshgupta203/tailwindcss-CLI.git#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.0",
+    "shelljs": "^0.8.5"
+  }
+}
